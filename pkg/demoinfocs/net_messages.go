@@ -3,9 +3,9 @@ package demoinfocs
 import (
 	"bytes"
 
-	bit "github.com/markus-wa/demoinfocs-golang/v2/internal/bitread"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	msg "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/msg"
+	bit "github.com/srjnm/demoinfocs-golang/internal/bitread"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	msg "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/msg"
 )
 
 func (p *parser) handlePacketEntities(pe *msg.CSVCMsg_PacketEntities) {

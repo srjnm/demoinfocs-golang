@@ -6,10 +6,10 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	constants "github.com/markus-wa/demoinfocs-golang/v2/internal/constants"
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
-	stfake "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables/fake"
+	constants "github.com/srjnm/demoinfocs-golang/internal/constants"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
+	stfake "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables/fake"
 )
 
 func TestNewGameState(t *testing.T) {

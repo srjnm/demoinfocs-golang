@@ -5,9 +5,9 @@ import (
 	"strconv"
 	"time"
 
-	constants "github.com/markus-wa/demoinfocs-golang/v2/internal/constants"
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
+	constants "github.com/srjnm/demoinfocs-golang/internal/constants"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
 )
 
 //go:generate ifacemaker -f game_state.go -s gameState -i GameState -p demoinfocs -D -y "GameState is an auto-generated interface for gameState." -c "DO NOT EDIT: Auto generated" -o game_state_interface.go

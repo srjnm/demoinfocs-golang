@@ -5,7 +5,7 @@ import (
 
 	"github.com/stretchr/testify/mock"
 
-	demoinfocs "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs"
+	demoinfocs "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs"
 )
 
 var _ demoinfocs.GameRules = new(GameRules)

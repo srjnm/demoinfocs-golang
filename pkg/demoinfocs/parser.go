@@ -11,10 +11,10 @@ import (
 	"github.com/golang/geo/r3"
 	dp "github.com/markus-wa/godispatch"
 
-	bit "github.com/markus-wa/demoinfocs-golang/v2/internal/bitread"
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	msg "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/msg"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
+	bit "github.com/srjnm/demoinfocs-golang/internal/bitread"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	msg "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/msg"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
 )
 
 //go:generate ifacemaker -f parser.go -f parsing.go -s parser -i Parser -p demoinfocs -D -y "Parser is an auto-generated interface for Parser, intended to be used when mockability is needed." -c "DO NOT EDIT: Auto generated" -o parser_interface.go

@@ -6,9 +6,9 @@ import (
 	"github.com/golang/geo/r3"
 	"github.com/markus-wa/go-unassert"
 
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	msg "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/msg"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	msg "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/msg"
 )
 
 func (p *parser) handleGameEventList(gel *msg.CSVCMsg_GameEventList) {

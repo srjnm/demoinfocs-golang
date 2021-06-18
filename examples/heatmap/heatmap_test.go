@@ -3,8 +3,8 @@ package main
 import (
 	"os"
 	"testing"
-	
-	"github.com/markus-wa/demoinfocs-golang/v2/examples"
+
+	"github.com/srjnm/demoinfocs-golang/examples"
 )
 
 // Just make sure the example runs

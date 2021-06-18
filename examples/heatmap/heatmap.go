@@ -11,10 +11,10 @@ import (
 	schemes "github.com/dustin/go-heatmap/schemes"
 	r2 "github.com/golang/geo/r2"
 
-	ex "github.com/markus-wa/demoinfocs-golang/v2/examples"
-	demoinfocs "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	metadata "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/metadata"
+	ex "github.com/srjnm/demoinfocs-golang/examples"
+	demoinfocs "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	metadata "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/metadata"
 )
 
 const (

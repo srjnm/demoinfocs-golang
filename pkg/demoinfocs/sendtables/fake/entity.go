@@ -4,8 +4,8 @@ import (
 	"github.com/golang/geo/r3"
 	"github.com/stretchr/testify/mock"
 
-	bitread "github.com/markus-wa/demoinfocs-golang/v2/internal/bitread"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
+	bitread "github.com/srjnm/demoinfocs-golang/internal/bitread"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
 )
 
 // NewEntityWithProperty creates and returns an entity with a single mocked property.

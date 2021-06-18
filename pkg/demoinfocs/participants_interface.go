@@ -3,7 +3,7 @@
 package demoinfocs
 
 import (
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
 )
 
 // Participants is an auto-generated interface for participants.

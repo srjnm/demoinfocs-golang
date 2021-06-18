@@ -6,11 +6,11 @@ import (
 
 	"github.com/stretchr/testify/assert"
 
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	msg "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/msg"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
-	stfake "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables/fake"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	msg "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/msg"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
+	stfake "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables/fake"
 )
 
 // See #90

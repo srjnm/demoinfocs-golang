@@ -12,9 +12,9 @@ import (
 	"github.com/markus-wa/go-unassert"
 	dispatch "github.com/markus-wa/godispatch"
 
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	msg "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/msg"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	msg "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/msg"
 )
 
 const maxOsPath = 260

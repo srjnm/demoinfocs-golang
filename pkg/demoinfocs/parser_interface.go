@@ -5,9 +5,9 @@ package demoinfocs
 import (
 	"time"
 
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
 	dp "github.com/markus-wa/godispatch"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
 )
 
 // Parser is an auto-generated interface for Parser, intended to be used when mockability is needed.

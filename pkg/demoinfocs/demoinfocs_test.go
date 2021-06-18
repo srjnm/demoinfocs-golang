@@ -21,10 +21,10 @@ import (
 	dispatch "github.com/markus-wa/godispatch"
 	"github.com/stretchr/testify/assert"
 
-	demoinfocs "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs"
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	msg "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/msg"
+	demoinfocs "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	msg "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/msg"
 )
 
 const (

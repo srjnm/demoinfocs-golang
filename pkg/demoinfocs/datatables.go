@@ -7,10 +7,10 @@ import (
 	"github.com/golang/geo/r3"
 	"github.com/markus-wa/go-unassert"
 
-	constants "github.com/markus-wa/demoinfocs-golang/v2/internal/constants"
-	common "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/common"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
+	constants "github.com/srjnm/demoinfocs-golang/internal/constants"
+	common "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/common"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
 )
 
 func (p *parser) mapEquipment() {

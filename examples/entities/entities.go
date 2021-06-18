@@ -5,10 +5,10 @@ import (
 	_ "image/jpeg"
 	"os"
 
-	ex "github.com/markus-wa/demoinfocs-golang/v2/examples"
-	demoinfocs "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs"
-	events "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/events"
-	st "github.com/markus-wa/demoinfocs-golang/v2/pkg/demoinfocs/sendtables"
+	ex "github.com/srjnm/demoinfocs-golang/examples"
+	demoinfocs "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs"
+	events "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/events"
+	st "github.com/srjnm/demoinfocs-golang/pkg/demoinfocs/sendtables"
 )
 
 // Run like this: go run entities.go -demo /path/to/demo.dem
